@@ -397,7 +397,7 @@ function checkSupport() {
     });
 }
 
-var cordovaSqliteplugin = {
+cordovaSqliteplugin = {
     _driver: 'cordova-sqlite-plugin',
     _initStorage: _initStorage,
     _support: checkSupport,
